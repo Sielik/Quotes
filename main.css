@@ -1,22 +1,31 @@
+
 body {
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background: #ffd0a8;
     color: #000;
-    font-family: 'calibri', sans-serif;
+    font-family: "calibri", sans-serif;
     font-weight: 400;
     text-transform: capitalize;
-}
-.container {
+  }
+  .container {
     text-align: center;
     padding: 2rem;
     border-radius: 5px;
     background-color: #fff;
-    flex: 0 0 80%;
-}
-#quoteBtn {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+  }
+  #quoteBtn {
     border: none;
     color: #fff;
     background: #d89156;
@@ -24,17 +33,16 @@ body {
     padding: 0.25rem 0.5rem;
     border-radius: 7px;
     cursor: pointer;
-}
-#quoteBtn:hover {
+  }
+  #quoteBtn:hover {
     color: #ffd000;
-}
-blockquote {
+  }
+  blockquote {
     background: #f9f9f9;
     border-left: 10px solid #fcdbbf;
     margin: 1.5rem;
     padding: 0.5rem;
-}
-#quoteAuthor {
+  }
+  #quoteAuthor {
     color: #ffd000;
-    
-}
+  }
